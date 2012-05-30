@@ -6,13 +6,17 @@ Easy search and replace in database fields via Django model introspection.
 
 Install
 -------
-::
-    pip install django-remplacer
+
+Install with pip::
+
+    $ pip install django-remplacer
 
 
 Settings
 --------
-::
+
+Include `remplacer` in your INSTALLED_APPS::
+
     INSTALLED_APPS = [
         ...,
         remplacer,
@@ -22,11 +26,12 @@ Settings
 
 Usage
 -----
-::
-    python manage.py remplace TARGET REPLACEMENT
+
+Run the management command::
+
+    $ python manage.py remplace TARGET REPLACEMENT [options]
 
 
-Help
-----
-::
-    python manage.py remplace -h
+Get help::
+
+    $ python manage.py remplace -h
