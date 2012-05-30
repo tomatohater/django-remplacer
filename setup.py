@@ -10,7 +10,7 @@ README = read('README.md')
 setup(
     name = "django-remplacer",
     version = remplacer.__version__,
-    description = 'Search and replace in database fields via Django model introspection.',
+    description = 'Easy search and replace in database fields via Django model introspection.',
     long_description = README,
     url = 'http://github.com/tomatohater/django-remplacer',
     author = 'Drew Engelson',

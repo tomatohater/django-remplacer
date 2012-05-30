@@ -1,7 +1,7 @@
 django-remplacer
 ================
 
-Search and replace in database fields via Django model introspection.
+Easy search and replace in database fields via Django model introspection.
 
 
 Install
